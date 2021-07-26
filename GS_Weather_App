@@ -1,26 +1,9 @@
 import HomePage
-import Warren
-import Naarm
-import Ngunnawal
-import Nipaluna
-import Gimuy
-import Mparntwe
-import Tarndanya
-import Boorloo
+import GSSYDNEY
 import streamlit as st
 PAGES = {
     "Home Page": HomePage,
-    "Warren" : Warren,
-    #"Naarm": Naarm,
-    #"Ngunnawal": Ngunnawal,
-    #"Nipaluna": Nipaluna,
-    #"Gimuy": Gimuy,
-    #"Mparntwe": Mparntwe,
-    #"Tarndanya": Tarndanya,
-    #"Boorloo": Boorloo,
-    #"Rubibi": Rubibi,
-    #"Garramilla": Garramilla,
-    #"Meanjin": Meanjin
+    "GS Sydney": GSSYDNEY
 }
 st.sidebar.title('Navigation Pages')
 selection = st.sidebar.radio("Go to", list(PAGES.keys()))
