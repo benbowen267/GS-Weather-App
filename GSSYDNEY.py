@@ -32,6 +32,7 @@ def app():
 
     st.title('Welcome to the Darangarra Class Giant Steps Sydney Weather App')
     st.write('Designed and created by J,J & G')
+    st.write('Potential inclusions weather conditions now, tempurature relative to school policy- heat stress->Drink some water, Severe weather warning, air quaility GOOD/BAD/MODERATE, UV SUNSMART any others you can think of')
     
     date = get_todays_date()
 
