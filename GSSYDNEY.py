@@ -38,7 +38,7 @@ def app():
 
     st.write(date)
     st.write('Inclusion of digital art creations potentially from Minecraft for season or weather etc')
-    st.write('GS Block.jpg')
+    st.image('GS Block.jpg')
 
   #define functio to read weather data and create a dataframe weatherzone and DPIE for air quaility
     
