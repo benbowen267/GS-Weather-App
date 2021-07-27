@@ -25,7 +25,7 @@ def app():
     col1, col2 = st.beta_columns([2.5,10])
 
     with col1:
-        st.image('unnamed.png')
+       
 
     with col2:
         st.title("Giant Steps STEM")
