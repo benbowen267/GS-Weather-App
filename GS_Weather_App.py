@@ -1,8 +1,8 @@
-import HomePage
+
 import GSSYDNEY
 import streamlit as st
 PAGES = {
-    "Home Page": HomePage,
+    #"Home Page": HomePage,
     "GS Sydney": GSSYDNEY
 }
 st.sidebar.title('Navigation Pages')
