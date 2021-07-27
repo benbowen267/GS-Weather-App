@@ -37,6 +37,7 @@ def app():
     date = get_todays_date()
 
     st.write(date)
+    st.write('Inclusion of digital art creations potentially from Minecraft for season or weather etc')
 
   #define functio to read weather data and create a dataframe weatherzone and DPIE for air quaility
     
