@@ -23,12 +23,12 @@ def app():
         return (ReturnString_1)
 
     col1, col2 = st.beta_columns([2.5,10])
-
-    with col1:
+    st.title("Giant Steps STEM")
+    #with col1:
        
 
-    with col2:
-        st.title("Giant Steps STEM")
+    #with col2:
+       # st.title("Giant Steps STEM")
 
     st.title('Welcome to the Darangarra Class Giant Steps Sydney Weather App')
     st.write('Designed and created by J,J & G')
